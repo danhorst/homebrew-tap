@@ -4,8 +4,8 @@
 class Wrk < Formula
   desc "Jump to a git project and create or attach a tmux session"
   homepage "https://github.com/danhorst/wrk"
-  url "https://github.com/danhorst/wrk/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "d0f4d5a3ac34f5318e26d112ab3ec31ef345243713b3ce1ae54b0f85b98d226d"
+  url "https://github.com/danhorst/wrk/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "b698f1c957dac2c99e063980edccb8145b222f41fe5b6cbb2e1395b7fdfc2fc0"
   license "MIT"
 
   depends_on "fzf"
