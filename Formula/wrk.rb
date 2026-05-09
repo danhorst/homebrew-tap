@@ -10,6 +10,7 @@ class Wrk < Formula
 
   depends_on "fzf"
   depends_on "tmux"
+  depends_on "tree"
 
   def install
     bin.install "wrk"
