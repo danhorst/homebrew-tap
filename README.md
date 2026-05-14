@@ -12,7 +12,15 @@ Or add `tap "danhorst/tap"` at the top of your [`Brewfile`][2]
 
 ## Formulas
 
-### [gemkeeper][3]
+### [after-midnight][3]
+
+Preserve your night vision while using macOS.
+
+```bash
+brew install danhorst/tap/after-midnight
+```
+
+### [gemkeeper][4]
 
 Manage offline Ruby development with gems from public and private sources.
 
@@ -20,7 +28,7 @@ Manage offline Ruby development with gems from public and private sources.
 brew install danhorst/tap/gemkeeper
 ```
 
-### [md-tools][4]
+### [md-tools][5]
 
 Opinionated command-line tools for working with Markdown files (`mdref`, `mdwrap`, `mdunwrap`, `mdinline`, `mdfootnote`, `mdsplit`, `mdjoin`, `mdfnt`, `mdtable`, `mdsidenote`).
 
@@ -28,7 +36,7 @@ Opinionated command-line tools for working with Markdown files (`mdref`, `mdwrap
 brew install danhorst/tap/md-tools
 ```
 
-### [wrk][5]
+### [wrk][6]
 
 Fast project switching and session management in your terminal.
 
@@ -38,6 +46,7 @@ brew install danhorst/tap/wrk
 
 [1]: https://github.com/danhorst
 [2]: https://docs.brew.sh/Brew-Bundle-and-Brewfile
-[3]: https://github.com/danhorst/gemkeeper
-[4]: https://github.com/danhorst/md-tools
-[5]: https://github.com/danhorst/wrk
+[3]: https://github.com/danhorst/after-midnight
+[4]: https://github.com/danhorst/gemkeeper
+[5]: https://github.com/danhorst/md-tools
+[6]: https://github.com/danhorst/wrk
