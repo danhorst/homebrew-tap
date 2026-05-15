@@ -6,9 +6,9 @@ class AfterMidnight < Formula
   homepage "https://github.com/danhorst/after-midnight"
   license "MIT"
 
-  url "https://github.com/danhorst/after-midnight/archive/refs/tags/v0.2.3.tar.gz"
-  version "0.2.3"
-  sha256 "d77120229b37d42946b71f55638e4b3feaa5cea0891531c03e9eb5c5fc8e0e41"
+  url "https://github.com/danhorst/after-midnight/archive/refs/tags/v0.2.4.tar.gz"
+  version "0.2.4"
+  sha256 "c292b351bcb0fa1fab0bd21aa4d0cdff395fcf45a19e5b701801d17df717a114"
 
   depends_on :macos => :ventura
   depends_on xcode: ["15.0", :build]
