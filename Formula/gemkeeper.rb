@@ -28,6 +28,8 @@ class Gemkeeper < Formula
   def post_install
     (var/"gemkeeper").mkpath
     (var/"log").mkpath
+    ENV["GEM_HOME"] = libexec
+    system "gem", "pristine", "--extensions"
   end
 
   def caveats
