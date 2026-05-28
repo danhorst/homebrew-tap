@@ -4,8 +4,8 @@
 class Gemkeeper < Formula
   desc "Manage offline development with private gem dependencies"
   homepage "https://github.com/danhorst/gemkeeper"
-  url "https://rubygems.org/downloads/gemkeeper-0.3.0.gem"
-  sha256 "e18c2cad67b8cfb7c908e315ee398c2fe8bd2920b0a659e910beeeea8f412158"
+  url "https://rubygems.org/downloads/gemkeeper-0.4.0.gem"
+  sha256 "a93a6f71e94bc99ab4268d0b4d24a7f42745b279b1d45adb6bf4741534e5dc11"
   license "MIT"
 
   depends_on "ruby"
