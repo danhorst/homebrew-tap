@@ -6,9 +6,9 @@ class MdTools < Formula
   homepage "https://github.com/danhorst/md-tools"
   license "MIT"
 
-  url "https://github.com/danhorst/md-tools/archive/refs/tags/v1.1.2.tar.gz"
-  version "1.1.2"
-  sha256 "49ecd089cfc263057939d1195ce817d552eafecee59f2964133f4db6b33a65f0"
+  url "https://github.com/danhorst/md-tools/archive/refs/tags/v1.1.3.tar.gz"
+  version "1.1.3"
+  sha256 "4f9fd4a227c3aafb9fc9387670cdfcec6fa31b2b5bdb83c33a8ecb92608ea5a3"
 
   depends_on "go" => :build
 
