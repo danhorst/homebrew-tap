@@ -4,9 +4,9 @@
 class PhotoImport < Formula
   desc "Fast, deduplicating photo importer for a Capture One library"
   homepage "https://github.com/danhorst/photo-import"
-  url "https://github.com/danhorst/photo-import/archive/refs/tags/v0.5.0.tar.gz"
-  version "0.5.0"
-  sha256 "b794fab1d798c383a7b3d4422a08c60383842367773d13575d18c0c65185382d"
+  url "https://github.com/danhorst/photo-import/archive/refs/tags/v0.5.1.tar.gz"
+  version "0.5.1"
+  sha256 "002e183cfad458460af3df5ed8b136c7d2670db2c97bf46df7a7779d66fd2b0e"
   license "MIT"
 
   depends_on "go" => :build
