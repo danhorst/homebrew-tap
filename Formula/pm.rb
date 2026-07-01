@@ -16,6 +16,14 @@ class Pm < Formula
     system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}", output: bin/"pm"), "./cmd/pm"
   end
 
+  def caveats
+    <<~EOS
+      `pm publish` and `pm pull` require osxphotos, which isn't packaged for
+      Homebrew:
+        pipx install osxphotos
+    EOS
+  end
+
   test do
     assert_predicate bin/"pm", :executable?
   end
