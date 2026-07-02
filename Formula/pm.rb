@@ -4,9 +4,9 @@
 class Pm < Formula
   desc "Bidirectional photo syndication for a canonical, on-disk archive"
   homepage "https://github.com/danhorst/photo-management"
-  url "https://github.com/danhorst/photo-management/archive/refs/tags/v0.5.1.tar.gz"
-  version "0.5.1"
-  sha256 "5019615a0a9ca81e889b9fd6b111bc29d7e940e764a1d0594fc0b3589e865101"
+  url "https://github.com/danhorst/photo-management/archive/refs/tags/v0.6.0.tar.gz"
+  version "0.6.0"
+  sha256 "f13d0d42dd6235a97764083aab7bc75328e151457d96f7fbd41f577cb3fd83ac"
   license "MIT"
 
   depends_on "go" => :build
