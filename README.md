@@ -37,7 +37,12 @@ Opinionated command-line tools for working with Markdown files (`mdref`, `mdwrap
 brew install danhorst/tap/md-tools
 ```
 
-### [wrk][7]
+
+### [photo-management][7]
+
+On-disk photo library management tools with syndication to Apple Photos (`pm`)
+
+### [wrk][8]
 
 Fast project switching and session management in your terminal.
 
@@ -51,4 +56,5 @@ brew install danhorst/tap/wrk
 [4]: https://github.com/danhorst/after-midnight#app
 [5]: https://github.com/danhorst/gemkeeper
 [6]: https://github.com/danhorst/md-tools
-[7]: https://github.com/danhorst/wrk
+[7]: https://github.com/danhorst/photo-management
+[8]: https://github.com/danhorst/wrk
