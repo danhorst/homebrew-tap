@@ -37,10 +37,13 @@ Opinionated command-line tools for working with Markdown files (`mdref`, `mdwrap
 brew install danhorst/tap/md-tools
 ```
 
-
 ### [photo-management][7]
 
-On-disk photo library management tools with syndication to Apple Photos (`pm`)
+On-disk photo library management tools with syndication to Apple Photos (`pm`).
+
+```bash
+brew install danhorst/tap/pm
+```
 
 ### [wrk][8]
 
