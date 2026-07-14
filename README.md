@@ -45,6 +45,14 @@ On-disk photo library management tools with syndication to Apple Photos (`pm`).
 brew install danhorst/tap/pm
 ```
 
+### [second-opinion][9]
+
+Adversarial second opinion on a document or diff from a model that didn't write it.
+
+```bash
+brew install danhorst/tap/second-opinion
+```
+
 ### [wrk][8]
 
 Fast project switching and session management in your terminal.
@@ -61,3 +69,4 @@ brew install danhorst/tap/wrk
 [6]: https://github.com/danhorst/md-tools
 [7]: https://github.com/danhorst/photo-management
 [8]: https://github.com/danhorst/wrk
+[9]: https://github.com/danhorst/second-opinion
