@@ -7,7 +7,7 @@ class SecondOpinion < Formula
 
   url "https://github.com/danhorst/second-opinion/archive/refs/tags/v0.1.0.tar.gz"
   version "0.1.0"
-  sha256 "e74e3aef21e96defbfa8ecffe1acefda12a534fd201063a217af8d16c0f95d04"
+  sha256 "2a934292f9586f68ce8a1d8a37faa200b35fdfea9f9d31c0b98c895180e75af4"
 
   depends_on "go" => :build
 
