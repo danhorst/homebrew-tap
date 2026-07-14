@@ -4,6 +4,7 @@
 class SecondOpinion < Formula
   desc "Adversarial second opinion on a document or diff from a model that didn't write it"
   homepage "https://github.com/danhorst/second-opinion"
+  license "MIT-0"
 
   url "https://github.com/danhorst/second-opinion/archive/refs/tags/v0.1.0.tar.gz"
   version "0.1.0"

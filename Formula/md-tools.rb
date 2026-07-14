@@ -4,7 +4,7 @@
 class MdTools < Formula
   desc "Command-line tools for working with Markdown files"
   homepage "https://github.com/danhorst/md-tools"
-  license "MIT"
+  license "MIT-0"
 
   url "https://github.com/danhorst/md-tools/archive/refs/tags/v1.1.4.tar.gz"
   version "1.1.4"
