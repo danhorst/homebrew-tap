@@ -4,14 +4,12 @@
 class AfterMidnight < Formula
   desc "Preserve your night vision while using macOS"
   homepage "https://github.com/danhorst/after-midnight"
+  url "https://github.com/danhorst/after-midnight/archive/refs/tags/v0.2.6.tar.gz"
+  sha256 "cba790278abf3a3d763f873b1788e7aedb0d3cfe77993498b8680d0c1523c4ac"
   license "MIT"
 
-  url "https://github.com/danhorst/after-midnight/archive/refs/tags/v0.2.6.tar.gz"
-  version "0.2.6"
-  sha256 "cba790278abf3a3d763f873b1788e7aedb0d3cfe77993498b8680d0c1523c4ac"
-
-  depends_on :macos => :ventura
   depends_on xcode: ["15.0", :build]
+  depends_on macos: :ventura
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"

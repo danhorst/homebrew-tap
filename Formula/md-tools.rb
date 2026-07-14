@@ -4,11 +4,9 @@
 class MdTools < Formula
   desc "Command-line tools for working with Markdown files"
   homepage "https://github.com/danhorst/md-tools"
-  license "MIT-0"
-
   url "https://github.com/danhorst/md-tools/archive/refs/tags/v1.1.4.tar.gz"
-  version "1.1.4"
   sha256 "28bc81c04d899b5fbec2d052a5a4bd129610ee2c1433f2f9da817d6edb690bf4"
+  license "MIT-0"
 
   depends_on "go" => :build
 
