@@ -9,6 +9,7 @@ class Wrk < Formula
   license "MIT"
 
   depends_on "fzf"
+  depends_on "jq"
   depends_on "tmux"
   depends_on "tree"
 
