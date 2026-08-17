@@ -11,7 +11,7 @@ class MdTools < Formula
   depends_on "go" => :build
 
   def install
-    %w[mdfnt mdfootnote mdinline mdjoin mdref mdsplit mdsidenote mdtable mdunwrap mdwrap].each do |cmd|
+    %w[mdfnt mdfootnote mdhtml mdinline mdjoin mdref mdsplit mdsidenote mdtable mdunwrap mdwrap].each do |cmd|
       system "go", "build", *std_go_args(output: bin/cmd), "./cmd/#{cmd}"
     end
   end
