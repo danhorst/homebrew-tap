@@ -4,8 +4,8 @@
 class SecondOpinion < Formula
   desc "Adversarial second opinion on a document or diff from another model"
   homepage "https://github.com/danhorst/second-opinion"
-  url "https://github.com/danhorst/second-opinion/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "dce8158c4e0e568929a13ffb3745203b0573101a643d93297c171e51931389eb"
+  url "https://github.com/danhorst/second-opinion/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "55dbbb2136d82df69f27bcdf248369fd834da71252f544623c87a8ead4aafa87"
   license "MIT-0"
 
   depends_on "go" => :build
